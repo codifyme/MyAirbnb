@@ -6,6 +6,7 @@
  * @flow strict-local
  */
 
+
 import React from 'react';
 import type {Node} from 'react';
 import {
@@ -90,6 +91,7 @@ const App: () => Node = () => {
   );
 };
 
+
 const styles = StyleSheet.create({
   sectionContainer: {
     marginTop: 32,
@@ -110,3 +112,4 @@ const styles = StyleSheet.create({
 });
 
 export default App;
+
